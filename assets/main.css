@@ -10,7 +10,7 @@ body {
 	min-width: 320px;
 	overflow-x: hidden;
 	word-wrap: break-word;
-	background-color: #101015;
+	background-color: #FFFFFF;
 }
 
 body:after {
@@ -301,25 +301,17 @@ body.is-instant:after {
 	border-bottom-right-radius: inherit;
 }
 
-#image02:not(:first-child) {
-	margin-top: 1.75rem !important;
+#image01 {
+	text-align: center;
 }
 
-#image02:not(:last-child) {
-	margin-bottom: 1.75rem !important;
+#image01 .frame {
+	width: 20rem;
+	transition: none;
 }
 
-#image02 .frame {
-	width: 6rem;
-	border-radius: 100%;
-}
-
-#image02 .frame img {
-	transition: transform 0.25s ease, filter 0.25s ease;
-}
-
-#image02 .frame:hover img {
-	transform: scale(1.06);
+#image01 .frame img {
+	transition: none;
 }
 
 h1, h2, h3, p {
@@ -336,52 +328,9 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	-webkit-text-fill-color: currentcolor;
 }
 
-#text02 {
-	text-transform: uppercase;
-	color: rgba(255,255,255,0.412);
-	font-family: 'Inter', sans-serif;
-	letter-spacing: 0.3rem;
-	width: calc(100% + 0.3rem);
-	font-size: 0.75em;
-	line-height: 1.5;
-	font-weight: 300;
-}
-
-#text02 a {
-	text-decoration: underline;
-}
-
-#text02 a:hover {
-	text-decoration: none;
-}
-
-#text02 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
-
-#text03 {
-	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
-	font-size: 2.875em;
-	line-height: 1.125;
-	font-weight: 300;
-}
-
-#text03 a {
-	text-decoration: underline;
-}
-
-#text03 a:hover {
-	text-decoration: none;
-}
-
-#text03 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
-
 #text01 {
-	color: rgba(255,255,255,0.62);
-	font-family: 'Inter', sans-serif;
+	color: #000000;
+	font-family: 'DM Mono', 'nonospace';
 	font-size: 1em;
 	line-height: 1.75;
 	font-weight: 300;
@@ -438,15 +387,15 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #buttons01 li a {
 	display: inline-flex;
-	width: 100vw;
+	width: 15rem;
 	height: 3.5rem;
 	line-height: 3.5rem;
 	padding: 0 1.75rem;
 	vertical-align: middle;
-	font-family: 'Inter', sans-serif;
+	font-family: 'DM Mono', 'nonospace';
 	font-size: 1em;
 	font-weight: 400;
-	border-radius: 1.75rem;
+	border-radius: 1rem;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 	transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -460,7 +409,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	height: 100%;
 	min-width: 16px;
 	pointer-events: none;
-	width: 1.625em;
+	width: 1.875em;
 	margin-left: 0.5em;
 	margin-right: calc(-0.125em + 0rem);
 	transition: fill 0.25s ease;
@@ -476,12 +425,8 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #buttons01 .button {
-	background-color: rgba(51,51,64,0.478);
+	background-color: #0000AA;
 	color: #FFFFFF;
-	background-image: linear-gradient(206deg, rgba(71,71,89,0.478) 0%, rgba(51,51,64,0.004) 100%);
-	background-position: 0% 0%;
-	background-repeat: repeat;
-	background-size: cover;
 }
 
 #buttons01 li a:hover {
@@ -532,22 +477,20 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(45deg, rgba(29,29,36,0.329) 0%, rgba(51,51,64,0.478) 100%);
+	background-image: linear-gradient(90deg, #FFFFFF 10%, #39C9FE 100%);
 	background-position: 0% 0%;
 	background-repeat: repeat;
 	background-size: cover;
-	-webkit-backdrop-filter: blur(0.15rem);
-	backdrop-filter: blur(0.15rem);
-	border-radius: 2.25rem;
+	border-radius: 1rem;
 }
 
 #container01 > .wrapper > .inner {
-	--gutters: 2rem;
+	--gutters: 1rem;
 	--padding-horizontal: 3rem;
 	--padding-vertical: 3rem;
 	--spacing: 1.25rem;
 	padding: var(--padding-vertical) var(--padding-horizontal);
-	border-radius: calc(2.25rem - 0px);
+	border-radius: calc(1rem - 0px);
 }
 
 #container01 > .wrapper {
@@ -725,30 +668,8 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 		--spacing: 1.5rem;
 	}
 	
-	#image02:not(:first-child) {
-		margin-top: 1.3125rem !important;
-	}
-	
-	#image02:not(:last-child) {
-		margin-bottom: 1.3125rem !important;
-	}
-	
-	#image02 .frame {
-		width: 6rem;
-	}
-	
-	#text02 {
-		letter-spacing: 0.2625rem;
-		width: calc(100% + 0.2625rem);
-		font-size: 0.75em;
-		line-height: 1.5;
-	}
-	
-	#text03 {
-		letter-spacing: 0rem;
-		width: 100%;
-		font-size: 2.5em;
-		line-height: 1.125;
+	#image01 .frame {
+		width: 20rem;
 	}
 	
 	#text01 {
@@ -776,7 +697,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	}
 	
 	#buttons01 li a svg {
-		width: 1.625em;
+		width: 1.875em;
 	}
 	
 	#container01 {
@@ -908,7 +829,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	}
 	
 	#buttons01 li a {
-		max-width: 100%;
+		max-width: 32rem;
 		width: 100%;
 	}
 	
@@ -922,14 +843,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 		--padding-horizontal: 0.75rem;
 		--padding-vertical: 0.75rem;
 		--spacing: 1.125rem;
-	}
-	
-	#text02 {
-		font-size: 0.75em;
-	}
-	
-	#text03 {
-		font-size: 2.5em;
 	}
 	
 	#text01 {
