@@ -2184,9 +2184,11 @@
 		};
 	
 	// Initialize "On Visible" animations.
-		onvisible.add('#text01', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
-		onvisible.add('#buttons01', { style: 'fade-up', speed: 750, intensity: 0, threshold: 3, delay: 250, stagger: 125, staggerSelector: ':scope > li', replay: false });
-		onvisible.add('#container01', { style: 'fade-up', speed: 1250, intensity: 1, threshold: 3, delay: 0, replay: false });
+		onvisible.add('h1.style3, h2.style3, h3.style3, p.style3', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
+		onvisible.add('h1.style4, h2.style4, h3.style4, p.style4', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
+		onvisible.add('h1.style1, h2.style1, h3.style1, p.style1', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
+		onvisible.add('h1.style2, h2.style2, h3.style2, p.style2', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
+		onvisible.add('.container.style1', { style: 'fade-up', speed: 1250, intensity: 1, threshold: 3, delay: 0, replay: false });
 	
 	// Run ready handlers.
 		ready.run();
