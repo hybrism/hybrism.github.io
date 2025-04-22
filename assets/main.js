@@ -2184,9 +2184,6 @@
 		};
 	
 	// Initialize "On Visible" animations.
-		onvisible.add('#image02', { style: 'fade-up', speed: 1000, intensity: 1, threshold: 3, delay: 0, replay: false });
-		onvisible.add('#text02', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
-		onvisible.add('#text03', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
 		onvisible.add('#text01', { style: 'fade-up', speed: 1000, intensity: 0, threshold: 3, delay: 0, replay: false });
 		onvisible.add('#buttons01', { style: 'fade-up', speed: 750, intensity: 0, threshold: 3, delay: 250, stagger: 125, staggerSelector: ':scope > li', replay: false });
 		onvisible.add('#container01', { style: 'fade-up', speed: 1250, intensity: 1, threshold: 3, delay: 0, replay: false });
