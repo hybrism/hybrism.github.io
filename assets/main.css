@@ -887,11 +887,11 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 }
 
 #list01:not(:first-child) {
-	margin-top: 1.25rem !important;
+	margin-top: 1.75rem !important;
 }
 
 #list01:not(:last-child) {
-	margin-bottom: 1.25rem !important;
+	margin-bottom: 1.75rem !important;
 }
 
 #list01 {
@@ -1285,11 +1285,11 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 	}
 	
 	#list01:not(:first-child) {
-		margin-top: 0.9375rem !important;
+		margin-top: 1.3125rem !important;
 	}
 	
 	#list01:not(:last-child) {
-		margin-bottom: 0.9375rem !important;
+		margin-bottom: 1.3125rem !important;
 	}
 	
 	#list01 {
