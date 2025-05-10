@@ -928,7 +928,7 @@
 								locked = true;
 		
 							// Clear index URL hash.
-								if (location.hash == '#projects')
+								if (location.hash == '#home')
 									history.replaceState(null, null, '#');
 		
 							// Get options.
@@ -1053,7 +1053,7 @@
 								id = section.id.replace(/-section$/, '');
 		
 								// Index section? Clear.
-									if (id == 'projects')
+									if (id == 'home')
 										id = '';
 		
 							// Reset hash to section name (via new state).
@@ -1093,7 +1093,7 @@
 							}
 		
 						// Section.
-							else if (e = $('#' + (h ? h : 'projects') + '-section')) {
+							else if (e = $('#' + (h ? h : 'home') + '-section')) {
 		
 								initialScrollPoint = null;
 								initialSection = e;
@@ -1106,7 +1106,7 @@
 		
 								// Default to index.
 									initialScrollPoint = null;
-									initialSection = $('#' + 'projects' + '-section');
+									initialSection = $('#' + 'home' + '-section');
 									initialId = initialSection.id;
 		
 								// Clear index URL hash.
@@ -1115,7 +1115,7 @@
 							}
 		
 					// Get options.
-						name = (h ? h : 'projects');
+						name = (h ? h : 'home');
 						hideHeader = name ? ((name in sections) && ('hideHeader' in sections[name]) && sections[name].hideHeader) : false;
 						hideFooter = name ? ((name in sections) && ('hideFooter' in sections[name]) && sections[name].hideFooter) : false;
 						disableAutoScroll = name ? ((name in sections) && ('disableAutoScroll' in sections[name]) && sections[name].disableAutoScroll) : false;
@@ -1211,7 +1211,7 @@
 							}
 		
 						// Section.
-							else if (e = $('#' + (h ? h : 'projects') + '-section')) {
+							else if (e = $('#' + (h ? h : 'home') + '-section')) {
 		
 								scrollPoint = null;
 								section = e;
@@ -1223,7 +1223,7 @@
 		
 								// Default to index.
 									scrollPoint = null;
-									section = $('#' + 'projects' + '-section');
+									section = $('#' + 'home' + '-section');
 		
 								// Clear index URL hash.
 									history.replaceState(undefined, undefined, '#');
