@@ -10,7 +10,7 @@ body {
 	min-width: 320px;
 	overflow-x: hidden;
 	word-wrap: break-word;
-	background-color: #FFFFFF;
+	background-color: #FFFBEC;
 }
 
 :root {
@@ -134,7 +134,7 @@ unloaded-script {
 	position: relative;
 	text-align: var(--alignment);
 	z-index: 1;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	transition: opacity 1s ease-in-out 0s;
 }
 
@@ -464,7 +464,7 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 }
 
 .buttons.style1 .button {
-	background-color: #FFFFFF;
+	background-color: #FFFBEC;
 	color: #0000AA;
 }
 
@@ -518,7 +518,7 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 }
 
 #buttons03 .button {
-	background-color: #FFFFFF;
+	background-color: #FFFBEC;
 	color: #0000AA;
 }
 
@@ -572,7 +572,7 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 }
 
 .buttons.style2 .button {
-	background-color: #FFFFFF;
+	background-color: #FFFBEC;
 	color: #0000AA;
 }
 
@@ -998,7 +998,7 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 }
 
 .icons.style1 a svg {
-	fill: #FFFFFF;
+	fill: #FFFBEC;
 }
 
 .icons.style1 a:hover {
